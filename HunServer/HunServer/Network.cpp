@@ -12,3 +12,9 @@ CNetwork::CNetwork()
 CNetwork::~CNetwork()
 {
 }
+BOOL CNetwork::Init()
+{
+	WSAStartup(MAKEWORD(2, 2), &wsadata);
+	hIOCP = CreateIoCompletionPort(INVALID_HANDLE_VALUE, NULL, NULL, 0);
+	return TRUE;
+}

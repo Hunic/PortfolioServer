@@ -5,6 +5,7 @@ class CGameServer
 	CNetwork* pNetwork;
 	CPacketProcess* pPacketProcess;
 	CThread* pThread;
+	
 public:
 	CGameServer();
 	~CGameServer();

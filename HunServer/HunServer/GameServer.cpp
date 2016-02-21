@@ -29,6 +29,7 @@ BOOL CGameServer::Activate()
 	std::cout << "Game Server Activate In" << std::endl;
 	pThread->ResistThreads(THREAD_NUM);
 	std::cout << "Threads Resist Threads Success" << std::endl;
+	
 	std::cout << "Game Server Activate Out" << std::endl;
 	return TRUE;
 }

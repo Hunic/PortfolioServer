@@ -1,3 +1,18 @@
 #pragma once
 
 #define		THREAD_NUM	8
+
+#define SERVERPORT 9000
+#define USER_START_NUM 0
+#define MAX_USER_NUM 100
+#define PACKET_BUF_SIZE 256
+#define RECV_BUF_SIZE 4096
+#define THREAD_NUM 8
+
+#define MONSTER_START_ID_NUM		30000
+#define MAX_MONSTER_ID_NUM			80000
+
+#define USER_START_POINT_X			10
+#define USER_START_POINT_Y			10
+
+#define MAX_STR_SIZE  100

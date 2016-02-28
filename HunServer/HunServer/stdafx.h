@@ -14,6 +14,7 @@ enum msgType {
 #include "Protocol.h"
 
 //	Network Header
+//	ignore Test
 #pragma comment(lib, "ws2_32")
 #include <WinSock2.h>
 //
